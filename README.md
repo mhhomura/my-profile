@@ -1,39 +1,39 @@
 # My Profile
 
-![Logo do Projeto](caminho/para/logo.png)
+![Logo do Projeto](./public/favicon.svg)
 
-Uma descrição curta do projeto, destacando seus principais recursos e funcionalidades.
+An Open Source project to anyone who want a portfolio
 
 ## Índice
 
-- [Instalação](#instalação)
-- [Estrutura de Diretórios](#estrutura-de-diretórios)
-- [Links Úteis](#links-úteis)
+- [Install](#install)
+- [Project](#project)
+- [Links](#links)
 
 
-## Instalação
+## Install
 
-Instruções sobre como instalar e executar o projeto localmente. Por exemplo:
+Instructions on how to install and run the project locally. For example:
 
-1. Clone o repositório:
+1. Clone the repository:
 ```bash
 git clone https://github.com/mhhomura/my-profile.git
 ```
-2. Entre na pasta:
+2. get in the folder:
 ```bash
 cd my-profile
 ```
-3. Instale as dependencias:
+3. Install the dependencies:
 ```bash
 yarn 
 ```
-4. Rode o projeto
+4. Run the application
 ```bash
 yarn dev
 ```
 
-## Estrutura de Diretórios
-
+## Project
+```bash
 meu-projeto-react/
   ├── src/
   │   ├── Components/
@@ -46,12 +46,7 @@ meu-projeto-react/
   ├── package.json
   ├── README.md
   └── ...
+```
+## Links
 
-## Licença
-
-[Nome da Licença](link-da-licença)
-
-
-## Links Úteis
-
-- [Demonstração de uso](https://www.mhomura.com)
+- [Preview](https://www.mhomura.com)

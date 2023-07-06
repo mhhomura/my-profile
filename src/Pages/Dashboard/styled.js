@@ -33,6 +33,9 @@ export const TitleH1 = styled.h1`
         color: #111;
         font-weight: 700;
         font-family: 'Inter', sans-serif;
+        @media(max-width: 900px){
+            font-size: 2rem;
+    }
 `;
 export const TitleH3 = styled.h3`
      font-size: 2.5rem;
@@ -42,6 +45,9 @@ export const TitleH3 = styled.h3`
         color: #111;
         font-weight: 700;
         font-family: 'Inter', sans-serif;
+        @media(max-width: 900px){
+            font-size: 1.5rem;
+    }
 `;
 export const TextP1 = styled.p`
       color: #333;
@@ -50,6 +56,9 @@ export const TextP1 = styled.p`
         width: 100%;
         line-height: 1.6;
         font-family: 'Inter', sans-serif;
+        @media(max-width: 900px){
+            font-size: 1rem;
+    }
 `;
 export const TextP2 = styled.p`
       color: #333;
@@ -58,6 +67,9 @@ export const TextP2 = styled.p`
         width: 100%;
         line-height: 1.6;
         font-family: 'Roboto', sans-serif;
+        @media(max-width: 900px){
+            font-size: 0.6rem;
+    }
 `;
 export const ApresentationDiv = styled.div`
      display: flex;
@@ -68,6 +80,9 @@ export const ApresentationDiv = styled.div`
     position: relative;
     padding: 12% 20%;
     z-index: 1;
+    @media(max-width: 900px){
+        padding-top: 10rem;
+    }
 `;
 
 export const BackgroundImage = styled.div`
@@ -80,4 +95,24 @@ export const BackgroundImage = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+`;
+
+export const Footer = styled.div`
+    width: 100%;
+    height: 300px;
+    background: #111111;
+    padding: 2% 10%;
+`;
+
+export const Left = styled.div`
+    width: 50%;
+    @media(max-width: 900px){
+        width: 100%;
+    }
+`;
+export const Right = styled.div`
+    width: 50%;
+    @media(max-width: 900px){
+        display: none;
+    }
 `;
